@@ -15859,14 +15859,15 @@ prebuilt_apex {
 }
 
 android_app_import {
-	name: "ImsService",
-	owner: "xiaomi",
-	apk: "proprietary/system/priv-app/ImsService/ImsService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
+    name: "ImsService",
+    owner: "xiaomi",
+    apk: "proprietary/system_ext/priv-app/ImsService/ImsService.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    odex_files: ["system_ext/priv-app/ImsService/oat/arm64/ImsService.odex"],
 }
 
 android_app_import {
