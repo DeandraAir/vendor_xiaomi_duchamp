@@ -15867,7 +15867,6 @@ android_app_import {
         enabled: false,
     },
     privileged: true,
-    odex_files: ["system_ext/priv-app/ImsService/oat/arm64/ImsService.odex"],
 }
 
 android_app_import {
